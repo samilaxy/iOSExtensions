@@ -14,7 +14,7 @@ struct JSONCodingKeys: CodingKey {
         self.stringValue = stringValue
     }
 
-    var intValue: Int?
+ //   var intValue: Int?
 
     init?(intValue: Int) {
         self.init(stringValue: "\(intValue)")
