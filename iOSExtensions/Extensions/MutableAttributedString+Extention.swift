@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 extension NSMutableAttributedString {
-    var fontSize: CGFloat { return 1 }
+    var fontSize: CGFloat { return 14 }
     
     func bold(_ value: String, boldFont: UIFont) -> NSMutableAttributedString {
         let attributes: [NSAttributedString.Key: Any] = [
