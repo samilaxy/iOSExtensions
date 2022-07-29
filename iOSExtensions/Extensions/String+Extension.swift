@@ -24,7 +24,7 @@ extension String {
     // Evaluate Password
     func isPassword() -> Bool {
         //  regex for password validations
-    //    let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^{1}(?:.){6,}$")
+        let passwordTest = NSPredicate(format: "SELF MATCHES %@", "^{1}(?:.){6,}$")
         return passwordTest.evaluate(with: self)
     }
     
