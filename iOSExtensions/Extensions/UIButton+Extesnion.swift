@@ -15,7 +15,7 @@ extension UIButton {
     
     func setImage(_ url: String) {
         self.imageView?.kf.indicatorType = .activity
-        self.kf.setImage(with: URL(string: url), for: .normal)
+       // self.kf.setImage(with: URL(string: url), for: .normal)
     }
     
     func manageLoader(_ visible: Bool, _ isChangeColor: Bool = true, isSocial: Bool = false) {
